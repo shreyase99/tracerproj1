@@ -1,0 +1,10 @@
+#!/bin/bash
+gsettings set org.gnome.system.proxy.socks host '172.16.2.30'
+gsettings set org.gnome.system.proxy.socks port '8080'
+gsettings set org.gnome.system.proxy.http host '172.16.2.30'
+gsettings set org.gnome.system.proxy.http port '8080'
+gsettings set org.gnome.system.proxy.https host '172.16.2.30'
+gsettings set org.gnome.system.proxy.https port '8080'
+gsettings set org.gnome.system.proxy.ftp host '172.16.2.30'
+gsettings set org.gnome.system.proxy.ftp port '8080'
+gsettings set org.gnome.system.proxy mode 'manual'
